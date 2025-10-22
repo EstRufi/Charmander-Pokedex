@@ -1,0 +1,34 @@
+body{
+    height: 100vh;
+    /* background-color: aqua; */
+}
+
+header{
+    width: 100vw;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   
+}
+.pokedex {  
+    text-align: center;
+}
+.informacao {
+    width: 350px;
+    position: absolute;
+    left: 70%;
+    text-align: center;
+    color: gray;
+    
+}
+
+.informacao span{
+    margin: 10px;
+}
+
+.informacao span:hover{
+    color: black;
+    border-bottom: 2px solid orange;
+    padding-bottom: 2px;
+}
