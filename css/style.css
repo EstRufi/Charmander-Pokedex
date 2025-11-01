@@ -36,6 +36,8 @@ header {
     padding-bottom: 2px;
 }
 
+/*header finalizado a cima*/
+
 main {
     width: 100vw;
     height: 100vh;
@@ -43,10 +45,8 @@ main {
 }
 
 .char {
-    /* background-color: blue; */
     width: 50vw;
     height: 100vh;
-
 }
 
 .titulo {
@@ -109,17 +109,65 @@ main {
 
 .pag p{
     position: absolute;
-    bottom: 590px;
-    left: 60px;
+    bottom: 610px;
+    left: 70px;
     color: gray;
     font-size: 15px;
 }
 
-
+/*Parte de baixo da evolução*/
 
 .evolucao {
     background-color: green;
-    height: 100%;
+    height: 41%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text{
+    font-size: 20px;
+    width: 160px; 
+    position: absolute;
+    left: 120px;
+}
+
+
+/*charmander*/
+
+.n4{
+    background-color: rgb(119, 102, 102);
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.charmander{
+    padding: 20px;
+    border: 3px solid;
+    border-color: orange;
+    border-radius: 100%;
+}
+
+.charmander img{
+    height: 142px;
+}
+
+/*charmelion*/
+
+.n5{
+    background-color: blueviolet;
+    width: 220px;
+
+}
+
+/*charizard*/
+
+.n6{
+    background-color: aqua;
+    width: 220px;
+
 }
 
 .info {
