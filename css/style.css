@@ -118,7 +118,6 @@ main {
 /*Parte de baixo da evolução*/
 
 .evolucao {
-    background-color: green;
     height: 41%;
     display: flex;
     justify-content: space-evenly;
@@ -135,7 +134,6 @@ main {
 /*charmander*/
 
 .n4{
-    background-color: rgb(119, 102, 102);
     width: 220px;
     display: flex;
     justify-content: center;
@@ -154,25 +152,187 @@ main {
     height: 142px;
 }
 
-/*charmelion*/
+.information span{
+    font-size: 24px;
+    color: gray;
+}
+
+.information p{
+    font-size: 20px;
+    width: 70px;
+    font-style: bold;
+    background-color: orange;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/*charmeleon*/
 
 .n5{
-    background-color: blueviolet;
     width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+.charmeleon{
+    border-radius: 100%;
+    border: 3px solid;
+    border-color: orange;
+    padding: 20px;
+}
+
+.charmeleon img{
+    height: 142px;
+}
+
+.information2 span{
+    font-size: 24px;
+    color: gray;
+}
+
+.information2 p{
+    font-size: 20px;
+    width: 70px;
+    font-style: bold;
+    background-color: orange;
+    text-align: center;
+    border-radius: 10px;
 }
 
 /*charizard*/
 
 .n6{
-    background-color: aqua;
     width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.charizard{
+    border-radius: 100%;
+    border: 3px solid;
+    border-color: orange;
+    padding: 20px;
+}
+
+.charizard img{
+    height: 142px;
+}
+
+.information3 span{
+    font-size: 24px;
+    color: gray;
+}
+
+.tipo{
+    width: 150px;
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    font-style: bold;
+}
+
+#fogo {
+    background-color: orange;
+    border-radius: 10px;
+    width: 70px;
+    text-align: center;
+}
+
+#fly {
+    border-radius: 10px;
+    width: 70px;
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(113, 113, 236), gray)
+}
+
+
+/*outro lado abaixo*/
+
+.info {
+    width: 50vw;
+    height: 100vh;
+}
+
+
+
+.elemento{
+    padding-left: 25px;
+    padding-top: 10px;
+    gap: 15px;
+    display: flex;
 
 }
 
-.info {
-    background-color: gray;
-    width: 50vw;
-    height: 100vh;
+.fraquezas{
+    height: 10%;
+}
 
+#agua{
+    font-size: 20px;
+    font-family: bold;
+    color: #fafafa;
+    background-color: blue;
+    width: 70px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#terra{
+    font-size: 20px;
+    font-family: bold;
+    background:linear-gradient(to bottom, #f2db42, #ac9743);
+    width: 70px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#pedra{
+    font-size: 20px;
+    font-family: bold;
+    background-color: #a48c20;
+    width: 70px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.descricao{
+    height: 20%;
+}
+
+.story{
+    padding-bottom: 20px;
+    padding-left: 40px;
+    font-size: 25px;
+    font-family: bold;
+}
+
+.peq{
+   width: 450px;
+   font-size: 25px;
+}
+
+.versao{
+    display: flex;
+    height: 40%;
+}
+
+.versions{
+    height: 100%;
+    width: 70%;
+    background-color: #ac9743;
+}
+
+.prox{
+    width: 30%;
+    background-color: aqua;
+    height: 100%;
+}
+
+.status{
+    background-color: blueviolet;
+    height: 30%;
 }
