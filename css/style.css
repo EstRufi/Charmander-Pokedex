@@ -325,6 +325,43 @@ main {
     width: 70%;
     background-color: #ac9743;
 }
+/*meio do canto esquerdo*/
+
+.ver{
+    width: 100%;
+    height: 18%;
+    display: flex;
+    gap: 30px;
+}
+
+.ver h1{
+    font-size: 25px;
+    font-family: bold;
+}
+
+.ver span{
+    position: relative;
+    top: 36px;
+    right: 80px;
+    font-size: 20px;
+}
+
+.ver span:hover{
+    border: 2px solid orange;
+    border-radius: 40px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+}
+
+.quadrados{
+    height: 82%;
+    width: 100%;
+    background-color: #f2db42;
+    
+}
+
+
 
 .prox{
     width: 30%;
