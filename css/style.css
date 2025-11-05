@@ -17,7 +17,7 @@ header {
 }
 
 .informacao {
-    width: 350px;
+    width: 360px;
     position: absolute;
     left: 70%;
     text-align: center;
@@ -26,7 +26,7 @@ header {
 }
 
 .informacao span {
-    margin: 10px;
+    margin: 7px;
     font-size: 23px;
 }
 
@@ -57,7 +57,7 @@ main {
     height: 100px;
 }
 
-.titulo span{
+.titulo span {
     color: gray;
     font-size: 24px;
 }
@@ -91,7 +91,7 @@ main {
 
 .img img {
     height: 500px;
-   filter: drop-shadow(10px 20px 70px rgb(255, 127, 0));
+    filter: drop-shadow(10px 20px 70px rgb(255, 127, 0));
 }
 
 .pag {
@@ -100,17 +100,17 @@ main {
     justify-content: center;
     align-items: center;
     display: flex;
-    
+
 }
 
-.pag span{
+.pag span {
     font-size: 24px;
 }
 
-.pag p{
+.pag p {
     position: absolute;
-    bottom: 610px;
-    left: 70px;
+    bottom: 580px;
+    left: 95px;
     color: gray;
     font-size: 15px;
 }
@@ -123,9 +123,9 @@ main {
     justify-content: space-evenly;
 }
 
-.text{
+.text {
     font-size: 20px;
-    width: 160px; 
+    width: 160px;
     position: absolute;
     left: 120px;
 }
@@ -133,7 +133,7 @@ main {
 
 /*charmander*/
 
-.n4{
+.n4 {
     width: 220px;
     display: flex;
     justify-content: center;
@@ -141,23 +141,23 @@ main {
     flex-direction: column;
 }
 
-.charmander{
+.charmander {
     padding: 20px;
     border: 3px solid;
     border-color: orange;
     border-radius: 100%;
 }
 
-.charmander img{
+.charmander img {
     height: 142px;
 }
 
-.information span{
+.information span {
     font-size: 24px;
     color: gray;
 }
 
-.information p{
+.information p {
     font-size: 20px;
     width: 70px;
     font-style: bold;
@@ -168,7 +168,7 @@ main {
 
 /*charmeleon*/
 
-.n5{
+.n5 {
     width: 220px;
     display: flex;
     justify-content: center;
@@ -176,23 +176,23 @@ main {
     flex-direction: column;
 }
 
-.charmeleon{
+.charmeleon {
     border-radius: 100%;
     border: 3px solid;
     border-color: orange;
     padding: 20px;
 }
 
-.charmeleon img{
+.charmeleon img {
     height: 142px;
 }
 
-.information2 span{
+.information2 span {
     font-size: 24px;
     color: gray;
 }
 
-.information2 p{
+.information2 p {
     font-size: 20px;
     width: 70px;
     font-style: bold;
@@ -203,7 +203,7 @@ main {
 
 /*charizard*/
 
-.n6{
+.n6 {
     width: 220px;
     display: flex;
     justify-content: center;
@@ -211,23 +211,23 @@ main {
     flex-direction: column;
 }
 
-.charizard{
+.charizard {
     border-radius: 100%;
     border: 3px solid;
     border-color: orange;
     padding: 20px;
 }
 
-.charizard img{
+.charizard img {
     height: 142px;
 }
 
-.information3 span{
+.information3 span {
     font-size: 24px;
     color: gray;
 }
 
-.tipo{
+.tipo {
     width: 150px;
     display: flex;
     gap: 15px;
@@ -259,7 +259,7 @@ main {
 
 
 
-.elemento{
+.elemento {
     padding-left: 25px;
     padding-top: 10px;
     gap: 15px;
@@ -267,85 +267,87 @@ main {
 
 }
 
-.fraquezas{
+.fraquezas {
     height: 10%;
 }
 
-#agua{
+#agua {
     font-size: 20px;
     font-family: bold;
     color: #fafafa;
     background-color: blue;
-    width: 70px;
+    width: 80px;
     border-radius: 10px;
     text-align: center;
 }
 
-#terra{
+#terra {
     font-size: 20px;
     font-family: bold;
-    background:linear-gradient(to bottom, #f2db42, #ac9743);
-    width: 70px;
+    background: linear-gradient(to bottom, #f2db42, #ac9743);
+    width: 80px;
     border-radius: 10px;
     text-align: center;
 }
 
-#pedra{
+#pedra {
     font-size: 20px;
     font-family: bold;
     background-color: #a48c20;
-    width: 70px;
+    width: 80px;
     border-radius: 10px;
     text-align: center;
 }
 
-.descricao{
+.descricao {
     height: 20%;
 }
 
-.story{
+.story {
     padding-bottom: 20px;
     padding-left: 40px;
     font-size: 25px;
     font-family: bold;
 }
 
-.peq{
-   width: 450px;
-   font-size: 25px;
+.peq {
+    width: 450px;
+    font-size: 25px;
 }
 
-.versao{
+.versao {
     display: flex;
     height: 40%;
 }
 
-.versions{
+.versions {
     height: 100%;
     width: 70%;
+    
 }
+
 /*meio do canto esquerdo*/
 
-.ver{
+.ver {
     width: 100%;
     height: 18%;
     display: flex;
     gap: 30px;
 }
 
-.ver h1{
+.ver h1 {
     font-size: 25px;
     font-family: bold;
 }
 
-.ver span{
+.ver span {
     position: relative;
     top: 36px;
     right: 80px;
     font-size: 20px;
 }
 
-.ver span:hover{
+.ver span:hover {
     border: 2px solid orange;
     border-radius: 40px;
     height: 30px;
@@ -353,35 +355,206 @@ main {
     text-align: center;
 }
 
-.quadrados{
+/* área dos quadrados */
+.quadrados {
     height: 82%;
     width: 100%;
-    background-color: #f2db42;
-    
 }
 
-.caixa1{
+.caixa1 {
     height: 50%;
-    background-color: bisque;
     gap: 15px;
     display: flex;
     justify-content: space-around;
 }
 
-.caixa1 div{
-    background-color: black;
+.caixa1>div {
     height: 130px;
     width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 10px 20px 30px #ff050534;
+}
+
+.q1 span {
+    font-size: 23px;
+    font-family: bold;
+    color: black;
+}
+
+.q1 p {
+    font-size: 20px;
+}
+
+.q2 span {
+    font-size: 23px;
+    font-family: bold;
+    color: black;
+}
+
+.q2 p {
+    font-size: 20px;
+}
+
+.q3 span {
+    font-size: 23px;
+    font-family: bold;
+    color: black;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.icon img {
+    width: 40px;
+}
+
+/* caixa número 2 */
+
+
+.caixa2 {
+    height: 50%;
+    gap: 95px;
+    padding-left: 50px;
+    display: flex;
+}
+
+.caixa2 div {
+    height: 130px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 10px 20px 30px #ff050534;
+}
+
+.q4 span {
+    font-size: 23px;
+    font-family: bold;
+    color: black;
+}
+
+.q4 p {
+    font-size: 20px;
+}
+
+.q5 span {
+    font-size: 23px;
+    font-family: bold;
+    color: black;
+}
+
+.q5 p {
+    font-size: 20px;
 }
 
 
-.prox{
+/* proxima página para #005 */
+.prox {
     width: 30%;
-    background-color: aqua;
     height: 100%;
 }
 
-.status{
-    background-color: blueviolet;
+.seguida {
+    height: 100%;
+    width: 30%;
+    position: relative;
+    gap: 10px;
+    left: 200px;
+}
+
+ .seguida img{
+    width: 56px;
+ }
+
+.seguida span{
+    font-size: 24px;
+    font-family: bold;
+    color: black;
+    position: absolute;
+    right: 85px;
+    bottom: 390px;
+}
+
+.seguida p{
+    position: absolute;
+    color: gray;
+    bottom: 360px;
+    right: 75px;
+}
+
+.status {
     height: 30%;
+    gap: 5px;
+}
+
+.stats{
+    font-size: 15px;
+}
+
+.hp{
+    height: 16.5%;
+    width: 100%;
+    display: flex;
+    gap: 200px;
+    align-items: center;
+}
+
+.hp span{
+    font-size: 20px;
+}
+
+.hp div{
+    width: 400px;
+    height: 20px;
+    border-radius: 10px;
+    background: linear-gradient(90deg,rgba(255, 0, 0, 0.51) 28%, rgba(92, 92, 92, 1) 0%);
+}
+
+.attack{
+    height: 16.5%;
+    width: 100%;
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    background-color: #5543ac;
+}
+
+.attack div{
+    width: 400px;
+    height: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(244, 85, 85) 10%, rgb(94, 92, 92));
+}
+
+.defense{
+    height: 16.5%;
+    width: 100%;
+    background-color: #4b4734;
+}
+
+.sp-attack{
+    height: 16.5%;
+    width: 100%;
+    background-color: #ac4386;
+}
+
+.sp-defense{
+    height: 16.5%;
+    width: 100%;
+    background-color: #438eac;
+}
+
+.speed{
+    height: 16.5%;
+    width: 100%;
+    background-color: #fff2bf;
 }
