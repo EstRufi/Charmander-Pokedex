@@ -323,7 +323,6 @@ main {
 .versions{
     height: 100%;
     width: 70%;
-    background-color: #ac9743;
 }
 /*meio do canto esquerdo*/
 
@@ -361,6 +360,19 @@ main {
     
 }
 
+.caixa1{
+    height: 50%;
+    background-color: bisque;
+    gap: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.caixa1 div{
+    background-color: black;
+    height: 130px;
+    width: 130px;
+}
 
 
 .prox{
