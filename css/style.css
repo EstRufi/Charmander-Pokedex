@@ -494,17 +494,34 @@ main {
 .status {
     height: 30%;
     gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.colunas{
+    display: flex;
+    justify-content: space-around;
 }
 
 .stats{
     font-size: 15px;
 }
 
+.habilidades{
+    display: flex;
+    flex-direction: column;
+}
+
+.numero{
+    display: flex;
+    flex-direction: column;
+}
+
 .hp{
     height: 16.5%;
     width: 100%;
     display: flex;
-    gap: 200px;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -523,9 +540,13 @@ main {
     height: 16.5%;
     width: 100%;
     display: flex;
-    gap: 200px;
+    justify-content: space-between;
     align-items: center;
-    background-color: #5543ac;
+    background-color: aqua;
+}
+
+.attack span{
+    font-size: 20px;
 }
 
 .attack div{
@@ -534,7 +555,10 @@ main {
     border-radius: 10px;
     background: linear-gradient(to right, rgb(244, 85, 85) 10%, rgb(94, 92, 92));
 }
-
+.attack .h1{
+    display: flex;
+    padding-right: 100px;
+}
 .defense{
     height: 16.5%;
     width: 100%;
