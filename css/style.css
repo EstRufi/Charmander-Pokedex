@@ -323,7 +323,7 @@ main {
 .versions {
     height: 100%;
     width: 70%;
-    
+
 }
 
 /*meio do canto esquerdo*/
@@ -471,11 +471,11 @@ main {
     left: 200px;
 }
 
- .seguida img{
+.seguida img {
     width: 56px;
- }
+}
 
-.seguida span{
+.seguida span {
     font-size: 24px;
     font-family: bold;
     color: black;
@@ -484,7 +484,7 @@ main {
     bottom: 390px;
 }
 
-.seguida p{
+.seguida p {
     position: absolute;
     color: gray;
     bottom: 360px;
@@ -493,92 +493,66 @@ main {
 
 .status {
     height: 30%;
-    gap: 5px;
+    gap: 15px;
     display: flex;
     flex-direction: column;
 }
 
-.colunas{
-    display: flex;
-    justify-content: space-around;
-}
-
-.stats{
+.stats {
     font-size: 15px;
 }
 
-.habilidades{
-    display: flex;
-    flex-direction: column;
-}
-
-.numero{
-    display: flex;
-    flex-direction: column;
-}
-
-.hp{
-    height: 16.5%;
-    width: 100%;
+.colunas {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding-right: 30px;
 }
 
-.hp span{
+.habilidades, .numero{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     font-size: 20px;
 }
 
-.hp div{
-    width: 400px;
-    height: 20px;
+.barra{
+   display: flex;
+   flex-direction: column;
+   gap: 22px;
+}
+
+
+#coluna1 {
+    width: 342px;
+    height: 12px;
+    background: linear-gradient(90deg, rgba(255, 0, 0, 1) 37%, rgba(115, 115, 115, 1) 0%);
     border-radius: 10px;
-    background: linear-gradient(90deg,rgba(255, 0, 0, 0.51) 28%, rgba(92, 92, 92, 1) 0%);
 }
 
-.attack{
-    height: 16.5%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: aqua;
-}
-
-.attack span{
-    font-size: 20px;
-}
-
-.attack div{
-    width: 400px;
-    height: 20px;
+#coluna2 {
+    width: 342px;
+    height: 12px;
+    background: linear-gradient(90deg,rgba(33, 179, 0, 1) 63%, rgba(115, 115, 115, 1) 0%);
     border-radius: 10px;
-    background: linear-gradient(to right, rgb(244, 85, 85) 10%, rgb(94, 92, 92));
-}
-.attack .h1{
-    display: flex;
-    padding-right: 100px;
-}
-.defense{
-    height: 16.5%;
-    width: 100%;
-    background-color: #4b4734;
 }
 
-.sp-attack{
-    height: 16.5%;
-    width: 100%;
-    background-color: #ac4386;
+#coluna3 {
+    width: 342px;
+    height: 12px;
+    border-radius: 10px;
+    background: linear-gradient(90deg,rgba(255, 0, 0, 1) 50%, rgba(115, 115, 115, 1) 0%)
 }
 
-.sp-defense{
-    height: 16.5%;
-    width: 100%;
-    background-color: #438eac;
+#coluna4, #coluna5 {
+    width: 342px;
+    height: 12px;
+    border-radius: 10px;
+    background: linear-gradient(90deg,rgba(33, 179, 0, 1) 73%, rgba(115, 115, 115, 1) 0%);
 }
 
-.speed{
-    height: 16.5%;
-    width: 100%;
-    background-color: #fff2bf;
+#coluna6 {
+    width: 342px;
+    height: 12px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(255, 0, 0, 1) 37%, rgba(115, 115, 115, 1) 0%);
 }
